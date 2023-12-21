@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Red+Hat+Display:ital,wght@1,500 & display=swap');
+@import url@import url('https://fonts.googleapis.com/css2? family= Red+Hat+Display:wght@700 & display=swap');
 body {
     background:url(./image/pattern-background-desktop.svg) center/cover no-repeat;
     min-height: 40vh;
@@ -9,10 +9,11 @@ body {
     position: absolute; /* postulat de départ */
     top: 50%; left: 50%; /* à 50%/50% du parent référent */
     transform: translate(-50%, -50%);
-    width: 250px;
-    height: 380px;
-    border: 2px  black solid;
+    width: 350px;
+    height: 480px;
+    
     border-radius: 10px;
+    background: white;
 }
 .photos {
     background:url(./image/illustration-hero.svg) center/cover;
@@ -20,16 +21,33 @@ body {
     border-radius: 10px 10px 0 0;
 }
 .text{
-    background: white;
-    margin top: 100vh ;
+    
 }
 h1{
     font-family: 'Red Hat Display', sans-serif;
     text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+   
 
 }
 p {
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.container2 {
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: hsl(225, 100%, 98%);
+}
+
+.container2 li {
+    list-style: none;
+    display: inline-block;
+
 }
